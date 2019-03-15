@@ -46,8 +46,8 @@ int main(){
 	Point p2(0,5);
 	Point p3(5,5);
 	Triangle ezel(p1,p2,p3);
-	// Triangle a((0,0),(0,5),(5,5));
+	Triangle a(Point(0,0),Point(0,5),Point(5,5));
 	ezel.print();
-	// cout <<endl;
-	// a.print();
+	cout <<endl;
+	a.print();
 }
