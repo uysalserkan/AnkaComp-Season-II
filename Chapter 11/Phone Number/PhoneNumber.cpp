@@ -3,7 +3,7 @@
 #include "PhoneNumber.h"
 using namespace std;
 ostream &operator<<(ostream& output, const PhoneNumber& number){
-	cout <<"Output: "<<"( "<<number.areacode<<" ) "<<number.exchange <<" - "<<number.line<<endl;
+	output <<"Output: "<<"( "<<number.areacode<<" ) "<<number.exchange <<" - "<<number.line<<endl;
 	return output;
 }
 istream &operator>>(istream& input, PhoneNumber& number){

@@ -8,12 +8,12 @@ public:
 		val=v;
 	}
 	Value &operator++(){
-		val++;
-		return (*this);
-	}
+		this->val++;
+		return *this;
+	}//
 	Value operator++(int dummy){
 		Value temp;
-		temp=*this;
+		temp=*this; //i++
 		++(*this);
 		return temp;
 	}
@@ -23,8 +23,10 @@ public:
 };
 int main(int argc, char const *argv[]) {
 	Value v1(3);
+	Value v2(3);
 	cout <<"Value 1\t\t:"<<v1.getValue()<<endl;
 	cout <<"Value 2 (post)\t:"<<(v1++).getValue()<<endl;
-	cout <<"Value 3 (pre)\t:"<<(++v1).getValue()<<endl;
+	// cout <<"Value 4 \t:"<<v1.getValue()<<endl;
+	cout <<"Value 3 (pre)\t:"<<(++v2).getValue()<<endl;
 	return 0;
 }
