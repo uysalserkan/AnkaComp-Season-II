@@ -2,7 +2,7 @@
 #include <iomanip>
 #include "PhoneNumber.h"
 using namespace std;
-ostream &operator<<(ostream& output, const PhoneNumber& number){
+ostream operator<<(ostream& output, const PhoneNumber& number){
 	output <<"Output: "<<"( "<<number.areacode<<" ) "<<number.exchange <<" - "<<number.line<<endl;
 	return output;
 }
