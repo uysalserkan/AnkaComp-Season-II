@@ -7,10 +7,12 @@ private:
 	int num,den;
 public:
 	Rational(int,int);
+	Rational();
 	void setFraction(int,int);
 	Rational operator+(Rational);
 	Rational operator-(Rational);
 	Rational operator*(Rational);
+	Rational operator/(Rational);
 	void reduction(void);
 	friend ostream &operator<<(ostream&, const Rational&);
 };

@@ -15,6 +15,7 @@ void BasePlus::setBaseSalary(double bs){
 double BasePlus::getBaseSalary()const{return BaseSalary;}
 double BasePlus::earnings()const{return CommissionEmployee::earnings();}
 void BasePlus::print()const{
+    cout <<"BaseSalaried Employee\n";
 	CommissionEmployee::print();
 	cout <<"Base Salary: "<<getBaseSalary()<<endl;
 }

@@ -11,7 +11,7 @@ public:
 		this->val++;
 		return *this;
 	}//
-	Value operator++(int dummy){
+	Value operator++(int a){
 		Value temp;
 		temp=*this; //i++
 		++(*this);

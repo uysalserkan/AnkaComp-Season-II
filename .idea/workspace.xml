@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="440e0247-2471-44ab-bb54-894ecc6389f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Chapter 12/Base-Commission Inheritance Hierarchy Using Private Data/BasePlus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 12/Base-Commission Inheritance Hierarchy Using Private Data/BasePlus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factorial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Factorial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library Functions/Algorithm Files/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Library Functions/Algorithm Files/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operator Overloadingg/BiggerorEqualthan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Operator Overloadingg/BiggerorEqualthan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operator Overloadingg/PostAndPreIncrement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Operator Overloadingg/PostAndPreIncrement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample 5/Q1/Rational.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sample 5/Q1/Rational.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample 5/Q1/Rational.h" beforeDir="false" afterPath="$PROJECT_DIR$/Sample 5/Q1/Rational.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample 5/Q1/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sample 5/Q1/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample 5/Q1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sample 5/Q1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample 5/Q3/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sample 5/Q3/a.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,22 +26,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter 11/Date/Date.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Factorial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            <state relative-caret-position="310">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -47,8 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chapter 11/Date/Date.cpp" />
         <option value="$PROJECT_DIR$/Factorial.cpp" />
+        <option value="$PROJECT_DIR$/Chapter 11/Date/Date.cpp" />
       </list>
     </option>
   </component>
@@ -63,6 +64,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,15 +87,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,16 +122,18 @@
       <updated>1553510631306</updated>
       <workItem from="1553510637332" duration="95000" />
       <workItem from="1553540132323" duration="316000" />
+      <workItem from="1553775142597" duration="223000" />
+      <workItem from="1553775701824" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411000" />
+    <option name="totallyTimeSpent" value="1619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -140,7 +145,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -153,17 +158,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Factorial.cpp" />
     <entry file="file://$PROJECT_DIR$/Chapter 11/Date/Date.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factorial.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        <state relative-caret-position="310">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
