@@ -21,8 +21,6 @@ void multiply(float a[],int n,float b[]);
 void ninetyrotate(int a[3][3],int n,int t);
 void KareMatrixYaz(int a[3][3],int n);
 /*
-17)Write and test the function that “rotates” 90 clockwise a two-dimensional square array of
-ints. For example, it would transform the array
 19) Implement the Insertion Sort algorithm for sorting an array of n elements. In this algorithm, the
 main loop index i runs from 1 to n–1. On the ith iteration, the element a[i] is “inserted” into its
 correct position among the subarray a[0..i]. This is done by shifting one position up all the elements
