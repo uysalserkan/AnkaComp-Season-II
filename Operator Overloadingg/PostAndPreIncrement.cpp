@@ -11,7 +11,7 @@ public:
 		this->val++;
 		return *this;
 	}//
-	Value operator++(int a){
+	Value operator++(int dummy){
 		Value temp;
 		temp=*this; //i++
 		++(*this);
@@ -30,3 +30,4 @@ int main(int argc, char const *argv[]) {
 	cout <<"Value 3 (pre)\t:"<<(++v2).getValue()<<endl;
 	return 0;
 }
+//a*=b
