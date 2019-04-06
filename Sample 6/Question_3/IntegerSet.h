@@ -5,7 +5,6 @@ private:
     int set[10];
 public:
     IntegerSet();
-    int getIndexValue(int i);
     void insertElement(int i);
     void deleteElement(int i);
     void print();

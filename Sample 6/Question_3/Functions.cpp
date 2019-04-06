@@ -5,35 +5,40 @@ IntegerSet::IntegerSet(){
     for (size_t i = 0; i < 10; i++)
         set[i]=0;
 }
-int getIndexValue(int i){
-    return set[i];
-}
 void IntegerSet::insertElement(int i){
-    for (size_t j = 0; j < 10; j++)
-        if(set[j]==0)
-            set[j]=i
+    set[i]=1;
 }
 void IntegerSet::deleteElement(int i){
-    if(i>0&&i<10)
-        for (size_t j = 0; j < 10; j++)
-            if(set[j]==i)
-                set[j]=0;
+    set[i]=0;
 }
 void IntegerSet::print(){
+    int counter=0;
     for (size_t i = 0; i < 10; i++)
-        if(set[i]!=0)
-            cout <<set[i]<<" ";
+        if(set[i]!=0){
+            cout <<i<<" ";
+            counter++;
+    }
+    if(counter==0)
+        cout <<"---";
     cout <<"\n";
 }
 bool IntegerSet::isEqualTo(IntegerSet k){
     for (size_t i = 0; i < 10; i++)
-        if(k.getIndexValue(i)!=set[i])
+        if(set[i]!=k.set[i])
             return false;
     return true;
 }
 IntegerSet IntegerSet::intersectWith(IntegerSet k){
-
+    IntegerSet temp;
+    for (size_t i = 0; i < 10; i++)
+        if(set[i]==1&&k.set[i]==1)
+            temp.set[i]=1;
+        return temp;
 }
 IntegerSet IntegerSet::uniteWith(IntegerSet k){
-
+    IntegerSet temp;
+    for (size_t i = 0; i < 10; i++)
+        if(set[i]==1||k.set[i]==1)
+            temp.set[i]=1;
+        return temp;
 }
