@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Chapter 17"
+    "\\Chapter 17",
+    "\\Chapter 17\\ClientData"
   ],
-  "SelectedNode": "\\Chapter 17\\creating_file.cpp",
+  "SelectedNode": "\\Chapter 17\\ClientData\\ClientData.hpp",
   "PreviewInSolutionExplorer": false
 }

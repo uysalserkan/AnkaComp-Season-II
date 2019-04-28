@@ -1,0 +1,4 @@
+1 Ezel 2507.12
+2 Ramiz 0
+3 Eysan -9999
+5 Ali 0
