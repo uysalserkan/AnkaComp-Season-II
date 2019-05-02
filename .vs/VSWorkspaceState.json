@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Chapter 19",
-    "\\Chapter 19\\Binary_Search"
+    "\\Chapter 19\\Binary_Search",
+    "\\Chapter 19\\Sorting_Algorithm",
+    "\\Sample 10"
   ],
-  "SelectedNode": "\\Chapter 19\\Binary_Search\\main.cpp",
+  "SelectedNode": "\\Chapter 19\\Sorting_Algorithm\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
