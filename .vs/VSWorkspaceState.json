@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Chapter 19",
+    "\\Chapter 17",
+    "\\Chapter 17\\ClientData",
     "\\Chapter 19\\Binary_Search",
     "\\Chapter 19\\Sorting_Algorithm",
     "\\Sample 10"
   ],
-  "SelectedNode": "\\Chapter 19\\Sorting_Algorithm\\main.cpp",
+  "SelectedNode": "\\Sample 10\\file_deneme.cpp",
   "PreviewInSolutionExplorer": false
 }
