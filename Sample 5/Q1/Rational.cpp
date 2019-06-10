@@ -11,8 +11,10 @@ void Rational::reduction(void){
 		if(this->num%i==0&&this->den%i==0)
 		ebob=i;
 	}
+	if(ebob!=1){
 	this->num/=ebob;
 	this->den/=ebob;
+	}
 
 
 	// for (size_t i = 1; i < this->num && i < this->den; i++) {
@@ -24,11 +26,11 @@ void Rational::reduction(void){
 	// }
 }
 Rational Rational::operator*(Rational a){
-	Rational temp=*this;
-	temp.num*=a.num;
-	temp.den*=a.den;
-	temp.reduction();
-	return temp;
+	Rational b=*this;
+	b.num*=a.num;
+	b.den*=a.den;
+	b.reduction();
+	return b;
 }
 Rational Rational::operator+(Rational a){
 	Rational temp=*this;
