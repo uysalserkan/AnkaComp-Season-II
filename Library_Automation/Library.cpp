@@ -5,18 +5,16 @@
  #include <unistd.h>
 #include "Library.hpp"
 using namespace std;
-//Cout overloading for Book 
+
 ostream &operator<<(ostream& out, const Book& ex){
 	out <<"\nBook Name: "<<ex.name<<"\nBook ID: "<<ex.identity<<"\nBook Author: "<<ex.author
 	<<"\nBook Publisher: "<<ex.publisher<<"\nISBN: "<<ex.isbn<<endl;
 	return out;
 }
-//Cout overloading for person 
 ostream &operator<<(ostream& out, const Person ex){
 	out <<ex.idnumber<<" "<<ex.name<<" "<<ex.surname<<endl;
 	return out;
 }
-//Cin overloading for Book
 istream &operator>>(istream& in, Book &ex){
 	//cin.ignore();
 	cout <<"Name: ";
@@ -38,10 +36,10 @@ istream &operator>>(istream& in, Book &ex){
 }
 void Library::takeDatas(){
 	ifstream libOpen("Library.txt",ios::binary|ios::in);
-		string n,is,a,p;
 		int id;
 		if(libOpen.is_open())
 			for(int i=0;!libOpen.eof();i++){
+				string n,is,a,p="\0";
 				libOpen >>id>>n>>a>>p>>is;
 				Book temp(n,is,a,p,id);
 				LibBooks.push_back(temp);
@@ -67,6 +65,7 @@ Library::Library(){
 	
 	switch (op){		
 	case 1:
+		cout <<LibBooks[9].isbn<<" "<<LibBooks[9].name<<" "<<LibBooks[8].isbn;
 		break;
 		
 	case 2:
@@ -104,6 +103,7 @@ Library::Library(){
 	default:
 		break;
 	}
+	WriteToSystem();
 }
 void Library::addBookToLibrary(){
 	int size;
@@ -126,7 +126,7 @@ void Library::checkMatchingBooks(){
 	for(int i=0;i<LibBooks.size()-1;i++){
 		cur_isbn=LibBooks[i].isbn;
 		for(int j=i+1;j<=LibBooks.size();j++){
-			if(cur_isbn==LibBooks[j].isbn)
+			if(cur_isbn==LibBooks[j].isbn || LibBooks[j].isbn=="\0")
 				LibBooks.erase(LibBooks.begin()+j);
 		}
 	}

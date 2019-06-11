@@ -23,7 +23,6 @@ public:
 
 class Book{
 private:
-//bool isHere parametre olarak düşünülebilir..
 	string name;
 	string isbn;
 	string author;
